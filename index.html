@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webiste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bbc98b5182.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/FLogo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX and Software Developer</p>
+                <h1>Hi , I'm <span>Meet</span><br> Patel From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----About------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/U41.png" class="userphoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, I am Meet Patel From India and I am very passionate
+                        about coputers and its programming languages.
+                        And therefor I have very greate command on 
+                        popular programming and designing languages like C, C++, Java, Flutter, Kotlin, Dart
+                        and HTML, HTML5, CSS, Tailewind CSS, Javascript , Figma Studio with hands-on projects
+                        of different companies.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill </p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX </span><br> Designing Web / App Interfaces</li>
+                            <li><span>Web Devlopment </span><br>Web app devlopment</li>
+                            <li><span>App Devlopment </span><br>Building Android / IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Currently </span><br>Jr. Software Devloper at Techsoft</li>
+                            <li><span>2022 - 2023 </span><br>Working on buidling of College Webiste</li>
+                            <li><span>2021</span><br>Google Certified Pythone Progrmmer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023 - 2025 </span><br>M.S in Computer Scince from Northeastern University ,Boston
+                                ,USA</li>
+                            <li><span>2020 - 2023 </span><br>Bachelor in Computer Applications , NVPAS College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div class="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Perspiciatis, ullam hic
+                        repellendus in praesentium animi architecto
+                        incidunt commodi quisquam harum debitis expedita
+                        laboriosam aliquam totam consequuntur voluptate.
+                        Nisi, expedita ea.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI / UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Perspiciatis, ullam hic
+                        repellendus in praesentium animi architecto
+                        incidunt commodi quisquam harum debitis expedita
+                        laboriosam aliquam totam consequuntur voluptate.
+                        Nisi, expedita ea.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Application Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Perspiciatis, ullam hic
+                        repellendus in praesentium animi architecto
+                        incidunt commodi quisquam harum debitis expedita
+                        laboriosam aliquam totam consequuntur voluptate.
+                        Nisi, expedita ea.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>An app that connects you to talented peaple around the world.
+                            Download from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>An app that connects you to talented peaple around the world.
+                            Download from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An app that connects you to talented peaple around the world.
+                            Download from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact us -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+                        <p><i class="fa-solid fa-paper-plane"></i>meethpatel1712@gmail.com</p>
+                    </a>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 6353957072</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Meet_Patel Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+                       
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Meet. All rights are reserved to Meet_Patel</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right="-250px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxxCIIXTozsz1UblhNdZisB2IGRPNxEwuI8kEljJoXqr0ZBAthzpe58Dc1qWpfSrPol/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
